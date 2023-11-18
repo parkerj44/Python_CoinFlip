@@ -32,6 +32,6 @@ def all_heads(count):
 
 
 print("This game checks how many times it takes to get n amount of heads in a row.")
-user_choice = input("Enter a number to test: ")
+user_choice = int(input("Enter a number to test: "))
 
 all_heads(user_choice)
